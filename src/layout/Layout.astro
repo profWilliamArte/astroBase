@@ -17,10 +17,20 @@ import Footer from '../components/Footer.astro';
 		<Footer/>
 	</body>
 </html>
-<style>
+<style is:global>
 	*{
 		margin: 0;
 		padding: 0;
+		scroll-behavior: smooth;
 	}
+	body{
+		background-color: #3498db;
+		color:#ecf0f1;
+	}
+	.titulo{
+        font-size: 2em;
+        text-align: center;
+        padding: 50px;
+    }
 	
 </style>

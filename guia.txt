@@ -1,0 +1,15 @@
+1) npm create astro@latest .
+2) npm i gh-pages
+3) crear las carpetas components y layout
+4) Terminar peoyecto
+5) agregar esta linea en el script 
+   "deploy": "gh-pages -d dist"
+6) en astro.config.mjs
+    export default defineConfig({
+        site: 'https://profwilliamarte.github.io',
+        base: '/astroBase',
+    });
+7) crear la carpeta dist con
+   npm run build
+8) para subir la carpeta disc
+   npm run deploy
