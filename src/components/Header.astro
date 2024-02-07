@@ -1,10 +1,16 @@
 ---
-import logo from '../assets/img/logo.png';
 
+
+import { Image } from 'astro:assets';
+import logo from "../assets/img/logo.png"; // La imagen es 1600x900
 ---
+
+
+
 <header>
     <div>
-        <img src={logo.src} alt="" width="300">
+       
+        <Image src={logo} alt="logo" width={300}  />
     </div>
     <nav>
         <ul>
