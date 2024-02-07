@@ -1,9 +1,7 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://github.com/profWilliamArte',
+  site: 'https://profWilliamArte.github.io',
   base: '/astroBase',
-  includeFiles: {
-    assets: true,
-  },
+  
 });
